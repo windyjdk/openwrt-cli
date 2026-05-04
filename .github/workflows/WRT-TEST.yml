@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       CONFIG:
-        default: 'IPQ60XX-WIFI-NO'
+        default: 'TEST'
         required: true
         type: choice
         options:
