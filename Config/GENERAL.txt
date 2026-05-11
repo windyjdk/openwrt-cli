@@ -4,6 +4,7 @@ CONFIG_PACKAGE_luci-app-homeproxy=y
 CONFIG_PACKAGE_luci-app-samba4=y
 CONFIG_PACKAGE_luci-app-rtp2httpd=y
 CONFIG_PACKAGE_luci-app-dockerman=n
+CONFIG_PACKAGE_luci-app-ddns=y
 #删除插件
 CONFIG_PACKAGE_luci-app-attendedsysupgrade=n
 CONFIG_PACKAGE_luci-app-wol=n
@@ -17,3 +18,4 @@ CONFIG_TARGET_ROOTFS_INITRAMFS=n
 #内核调整
 
 #组件调整
+CONFIG_PACKAGE_luci-proto-wireguard=y
